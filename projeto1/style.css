@@ -1,0 +1,42 @@
+main {
+      border: dashed 5px rgb(171, 18, 18);
+      background-color: chocolate;
+    }
+
+    main aside {
+      border: 2px solid rgb(255, 255, 255);
+      width: 350px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    main aside .thumb {
+      border:  chocolate;
+    }
+
+    main aside .thumb img {
+      width: 100%;
+    }
+
+    main aside .info {
+      border: 2px solid chocolate;
+    }
+
+    main section {
+      h2, h3 {
+        color:aliceblue
+      }
+      p1 {font-size: 23px;
+        color: rgb(98, 66, 43);
+      }
+      p2 {
+        font-size: 30;
+        color:red;
+        background-color: aliceblue;
+      }
+
+      border: 2px solid aliceblue;
+      width: 500px;
+      display: inline-block;
+    }
+    
