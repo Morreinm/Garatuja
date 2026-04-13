@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<link rel="stylesheet" href="stylesheet.css">
 <head>
     <meta charset='utf-8'>
     <title> Meu Formulario </title>
@@ -8,20 +8,31 @@
 
 <body>
     <form action="">
-        <div>
-            <label for="nome-macumba">Nome</label>
-            <input type="text" name="nome-do-deus" id="nome-macumba">
+        <div class="nome">
+            <label for="nome-usuario">Nome</label>
+            <input  placeholder="Digite seu usuario aqui"   type="text" name="usuario" id="nome-usuario">
+        </div>
+        
+        <div class="senha">
+            <label for="senha-usuario">Senha</label>
+            <input placeholder="Digite Sua Senha aqui" type="password" name="senha" id="senha-usuario">
         </div>
 
         <div>
-            <label for="deus">Deus-pra-oferenda</label>
-            <select name="D" id="">
-                <option>Ze pilintra</option>
-                <option>Tranca Rua</option>
-                <option>Pomba gira</option>
-                <option>Exu caveira</option>
-              
+            <label for="fps">fps</label>
+            <select name="fps" id="fps">
+                <option>10</option>
+                <option>20</option>
+                <option>30</option>
+                <option>40</option>
+                <option>50</option>
+                <option>60</option>
             </select>
+            <input type="checkbox">voce aceita os termos?</input>
+        <div>
+           <button>enviar</button>
+        </div>
+
         </div>
     </form>
 </body>
