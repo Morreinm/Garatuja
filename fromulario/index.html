@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="stylesheet.css">
+<html lang="pt-BR">
 <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title> Meu Formulario </title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <form action="">
+   <div class="container">
+    <h1 class="title">Criar Conta</h1>
+       <form action="">
         <div class="nome">
-            <label for="nome-usuario">Nome</label>
+            <label for="nome-usuario">Usuario</label>
             <input  placeholder="Digite seu usuario aqui"   type="text" name="usuario" id="nome-usuario">
         </div>
         
@@ -19,7 +22,7 @@
         </div>
 
         <div>
-            <label for="fps">fps</label>
+            <label for="fps">FPS</label>
             <select name="fps" id="fps">
                 <option>10</option>
                 <option>20</option>
@@ -28,13 +31,18 @@
                 <option>50</option>
                 <option>60</option>
             </select>
-            <input type="checkbox">voce aceita os termos?</input>
+            <input type="checkbox" name="termos" id="termo" required>
+            <span class="aceita-termos"></span>
+            Eu aceito os <a href="https://policies.google.com/terms?hl=pt-BR" class="link">termos de usuario</a>
         <div>
-           <button>enviar</button>
+           <button>ENVIAR</button>
         </div>
-
-        </div>
+    </div>
     </form>
+   <footer>
+    <p>Author: <a href="https://github.com/Morreinm">Morreinm</a></p>
+   </footer>
+    
 </body>
 
 </html>

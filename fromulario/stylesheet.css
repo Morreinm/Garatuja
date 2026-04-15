@@ -2,3 +2,16 @@ body {
     background-color: rgb(125, 114, 114);
 }
 
+.container {
+
+    text-align: center;
+    background-color: aliceblue;
+    border-style: dashed;
+    border-radius: 43px;
+
+}
+
+button {
+    color: red;
+    border-radius: 43px;
+}
