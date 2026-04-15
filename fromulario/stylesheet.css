@@ -1,17 +1,25 @@
 body {
-    background-color: rgb(125, 114, 114);
+    background-color: rgb(255, 249, 215);
 }
 
 .container {
 
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(255,238,140);
     border-style: dashed;
-    border-radius: 43px;
+    border-width: 5px;
+    
 
 }
 
-button {
+button:hover {
+   
     color: red;
     border-radius: 43px;
+    transition: 3px;
+}
+img {
+    width: 150px;
+    border-style: dashed;
+    border-color: black;
 }
