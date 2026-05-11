@@ -1,22 +1,27 @@
 main {
-      border: dashed 5px rgb(171, 18, 18);
-      background-color: chocolate;
-    }
+  border: dashed 5px rgb(171, 18, 18);
+  background-color: chocolate;
 
-    main aside {
-      border: 2px solid rgb(255, 255, 255);
-      width: 350px;
-      display: inline-block;
-      vertical-align: top;
-    }
+  display: flex;
+  gap: 20px;
+}
+
+    main {
+  border: dashed 5px rgb(171, 18, 18);
+  background-color: chocolate;
+
+  display: flex;
+  gap: 20px;
+}
 
     main aside .thumb {
       border:  chocolate;
     }
 
-    main aside .thumb img {
-      width: 100%;
-    }
+   main aside .thumb img {
+  width: 500px;
+  height: auto;
+}
 
     main aside .info {
       border: 2px solid chocolate;
